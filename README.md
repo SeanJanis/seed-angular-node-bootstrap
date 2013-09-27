@@ -3,8 +3,8 @@
 Originally setup by [Brian Ford](http://briantford.com/blog/angular-express.html). Forked to add 
 support for [Bootstrap 3.0](http://getbootstrap.com/), [Animate.css](http://daneden.me/animate/) and 
 [Google SPDY](https://github.com/indutny/node-spdy) dependencies. NOTE: SPDY requires SSL 
-(i.e. https://localhost:3000/) and I've provided test keys which are used for testing. In 
-production, you'll want to generate more authoritative keys. 
+(i.e. https://localhost:3000/) and I've provided example keys which are used for testing. In 
+production, you'll want to generate more authoritative keys :) 
 
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
 application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want

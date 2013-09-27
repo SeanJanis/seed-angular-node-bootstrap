@@ -1,6 +1,6 @@
 # Blank Seed App
 
-Originally setup by [Brian Ford](http://briantford.com/blog/angular-express.html). Forked to add support for Bootstrap 3.0 and [Google SPDY](https://github.com/indutny/node-spdy) dependency. 
+Originally setup by [Brian Ford](http://briantford.com/blog/angular-express.html). Forked to add support for [Bootstrap 3.0](http://getbootstrap.com/) and [Google SPDY](https://github.com/indutny/node-spdy) dependency. 
 
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
 application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want

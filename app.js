@@ -6,7 +6,8 @@
 var express = require('express'),
   routes = require('./routes'),
   api = require('./routes/api'),
-  http = require('http'),
+  fs = require('fs'),
+  spdy = require('spdy'),
   path = require('path');
 
 var app = module.exports = express();
@@ -55,7 +56,12 @@ app.get('*', routes.index);
 /**
  * Start Server
  */
+var options = {
+  key: fs.readFileSync('keys/spdy-key.pem'),
+  cert: fs.readFileSync('keys/spdy-cert.pem')
+};
 
-http.createServer(app).listen(app.get('port'), function () {
-  console.log('Express server listening on port ' + app.get('port'));
+spdy.createServer(options, app).listen(app.get('port'), function(){
+  console.log('SPDY Express server listening on port ' + app.get('port'));
 });
+

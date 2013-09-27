@@ -42,20 +42,23 @@ Just fetch the changes and merge them into your project with git.
 
 ## Directory Layout
     
-    app.js              --> app config
-    package.json    	--> for npm
-    node_modules/		--> run 'npm install' to download these
-    public/             --> all of the files to be used in on the client side
-      css/              --> css files
-        app.css         --> default stylesheet
-      img/              --> image files
-      js/               --> javascript files
-        app.js          --> declare top-level app module
-        controllers.js  --> application controllers
-        directives.js   --> custom angular directives
-        filters.js      --> custom angular filters
-        services.js     --> custom angular services
-        lib/            --> angular and 3rd party JavaScript libraries
+    app.js              	--> app config
+    keys/					--> example (required) SSL keys for use with SPDY
+    node_modules/			--> run 'npm install' to download these
+    package.json    		--> for npm
+    public/             	--> all of the files to be used in on the client side
+      css/              	--> css files
+        app.css         	--> default stylesheet
+        animate.min.css		-->	animating div elements (http://daneden.me/animate/)
+        bootstrap.min.css	--> responsive ui layouts (http://getbootstrap.com/)
+      img/              	--> image files
+      js/               	--> javascript files
+        app.js          	--> declare top-level app module
+        controllers.js  	--> application controllers
+        directives.js   	--> custom angular directives
+        filters.js      	--> custom angular filters
+        services.js     	--> custom angular services
+        lib/            	--> angular and 3rd party JavaScript libraries
           angular/
             angular.js            --> the latest angular js
             angular.min.js        --> the latest minified angular js

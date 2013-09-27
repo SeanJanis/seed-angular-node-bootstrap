@@ -43,7 +43,8 @@ Just fetch the changes and merge them into your project with git.
 ## Directory Layout
     
     app.js              --> app config
-    package.json        --> for npm
+    package.json    	--> for npm
+    node_modules/		--> run 'npm install' to download these
     public/             --> all of the files to be used in on the client side
       css/              --> css files
         app.css         --> default stylesheet

@@ -61,6 +61,9 @@ var options = {
   cert: fs.readFileSync('keys/spdy-cert.pem')
 };
 
+/**
+ * SPDY-wrapped server with express instance
+ */
 spdy.createServer(options, app).listen(app.get('port'), function(){
   console.log('SPDY Express server listening on port ' + app.get('port'));
 });

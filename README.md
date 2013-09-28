@@ -12,7 +12,7 @@ to use Node to serve their app.
 
 The seed contains angular libraries, test libraries and a bunch of scripts all preconfigured for
 instant web development gratification. Just clone the repo (or download the zip/tarball) and
-you're ready to develop your application.
+you're ready to develop your application. 
 
 The seed app shows how to wire together Angular client-side components with Express on the server.
 It also illustrates writing angular partials/views with the Jade templating library.
@@ -40,7 +40,7 @@ Coming soon!
 Just fetch the changes and merge them into your project with git.
 
 
-## Directory Layout
+## Directory Layout 
     
     app.js              	--> app config
     keys/					--> example (required) SSL keys for use with SPDY
@@ -76,16 +76,16 @@ Just fetch the changes and merge them into your project with git.
 
 
 
-## Example App
+## Example App 
 
 A simple [blog](https://github.com/btford/angular-express-blog) based on this seed.
 
 
-## Contact
+## Contact 
 
 For more information on AngularJS please check out http://angularjs.org/
 For more on Express and Jade, http://expressjs.com/ and http://jade-lang.com/ are
 your friends.
 
 ## License
-MIT
+MIT 
